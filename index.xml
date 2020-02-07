@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>王的博客</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 王的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 07 Feb 2020 00:06:05 +0800</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>第二篇 如何使用GitHubPages预览HTML</title>
+      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8githubpages%E9%A2%84%E8%A7%88html/</link>
+      <pubDate>Fri, 07 Feb 2020 00:06:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8githubpages%E9%A2%84%E8%A7%88html/</guid>
+      
+        <description>&lt;h1 id=&#34;如何使用githubpages预览html&#34;&gt;如何使用GitHubPages预览HTML&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;下文中自己的GitHub用户名使用xxxxxx代替&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第一步github-上建立个人仓库&#34;&gt;第一步：GitHub 上建立个人仓库&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;仓库名为：xxxxxx.github.io&lt;/li&gt;
+&lt;li&gt;创建的时候不要勾选其他选项，写好仓库名后直接点创建&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第二步本地仓库操作&#34;&gt;第二步：本地仓库操作&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在本地仓库创建 .gitignore 文件，并将/public/写入&lt;/li&gt;
+&lt;li&gt;配置 config.toml 中的 baseURL = &amp;ldquo;&lt;a href=&#34;http://xxxxxx.github.io/%22&#34;&gt;http://xxxxxx.github.io/&amp;quot;&lt;/a&gt; 和 title&lt;/li&gt;
+&lt;li&gt;进入 public 目录创建本地仓库
+&lt;ol&gt;
+&lt;li&gt;git init&lt;/li&gt;
+&lt;li&gt;git add .&lt;/li&gt;
+&lt;li&gt;git commit -m 第一次部署&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;关联远程仓库
+&lt;ol&gt;
+&lt;li&gt;git remote add origin 远程仓库位置&lt;/li&gt;
+&lt;li&gt;git push -u origin master&lt;/li&gt;
+&lt;li&gt;建议直接在 Github 的远程仓库上直接复制这两段命令执行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第三步测试页面&#34;&gt;第三步：测试页面&lt;/h2&gt;
+&lt;p&gt;开打远程仓库的 settings 找到 GitHub Pages 位置可以看到 Your site is published at &lt;a href=&#34;https://xxxxxx.github.io/&#34;&gt;https://xxxxxx.github.io/&lt;/a&gt; 点击链接就可以看到自己的博客也米娜了&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>第一篇 如何用hugo搭建个人博客</title>
+      <link>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E7%AF%87-%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 06 Feb 2020 21:41:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E7%AC%AC%E4%B8%80%E7%AF%87-%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>&lt;h1 id=&#34;如何用-hugo-搭建个人博客&#34;&gt;如何用 hugo 搭建个人博客&lt;/h1&gt;
+&lt;h2 id=&#34;第一步安装hugo&#34;&gt;第一步：安装Hugo&lt;/h2&gt;
+&lt;p&gt;Mac 安装方式&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;brew install hugo&lt;/li&gt;
+&lt;li&gt;hugo version&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Windows 安装方式&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Hugo releases页面&lt;/a&gt;下载压缩包&lt;/li&gt;
+&lt;li&gt;解压，将解压后 hugo.exe 放入 D:\software\hugo\hugo.exe&lt;/li&gt;
+&lt;li&gt;将 D:\software\hugo 加入path&lt;/li&gt;
+&lt;li&gt;重启终端，运行 hugo version 查看版本&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第二步快速搭建博客&#34;&gt;第二步：快速搭建博客&lt;/h2&gt;
+&lt;p&gt;根据文档，快速开始&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo官网&lt;/a&gt;，点击 Quick Start 快速开始&lt;/li&gt;
+&lt;li&gt;从 Step 2 开始，按照提示一步一步抄代码，直到 Step 7&lt;/li&gt;
+&lt;li&gt;Step 2 : 建议文件夹名称为 GitHub用户名.github.io-blogCreater&lt;/li&gt;
+&lt;li&gt;Step 3 : 可以顺便配置下 config.toml 中的title&lt;/li&gt;
+&lt;li&gt;Step 5 : 执行完成后，打开&lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt;就可以看到博客的本地预览&lt;/li&gt;
+&lt;li&gt;Step 7 : 执行完会生成一个 public 目录，这就是我们的博客站点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;tips：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用 hugo server -D 可以预览草稿，hugo server 可以预览非草稿&lt;/li&gt;
+&lt;li&gt;直接双击打开 public.index.html 不能预览，因为此处不能使用文件协议预览，需要使用 hugo server 预览&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>开博大吉</title>
+      <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <pubDate>Thu, 06 Feb 2020 21:22:46 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      
+        <description>&lt;h1 id=&#34;开通博客大吉大利&#34;&gt;开通博客，大吉大利！！！&lt;/h1&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>
